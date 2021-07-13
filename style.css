@@ -1,0 +1,318 @@
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	
+
+}
+body{
+	font-family: montserrat;
+	
+
+}
+nav{
+	height: 100px;
+	width: 100%;
+	background:rgb(0,180,214);
+}
+label.logo{
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	padding: 0 100px;
+	line-height: 80px;
+
+}
+nav ul{
+	float: right;
+	margin-right: 40px;
+}
+nav li{
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 80px;
+}
+nav a{
+	color:white;
+	font-size: 18px;
+	text-transform: uppercase;
+	border: 1px solid transparent;
+	padding: 7px 10px;
+	border-radius: 3px;
+}
+a.active,a:hover{
+	border:1px solid red;
+	transition: .5s;
+	
+}
+nav #icon{
+	color: yellow;
+	font-size: 30px;
+	line-height: 80px;
+	float: right;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+
+}
+@media (max-width: 1048px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 60px;
+
+	}
+nav ul{
+	margin-right: 20px;
+
+}
+nav a{
+	font-size: 17px;
+
+}
+}
+
+.contactForm{
+	width: 40%;
+	padding: 40px;
+	background: #fff;
+
+}
+.inputbox{
+	font-size: 30px;
+	background:#34495e;
+	color: #333;
+	
+	justify-content: center;
+	flex-direction: column;
+	background: url(bg.jpg);
+	color: black;
+	
+
+}
+
+.contactForm .h2{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin:10px 0;
+	border:none;
+	border-bottom: 2px solid #333;
+	outline: none;
+	color: gray;
+
+
+
+}
+body{
+	margin: 0;
+	padding: 250;
+	font-weight: Century Gothic;
+	
+	background-size: cover;
+	background-position: center;
+	right: 50%;
+
+
+}
+.container{
+	height: 75vh;
+	width: 30%;
+	background: rgba(0,0,0,.6);
+	top: 50%;
+	
+	
+
+}
+.img{
+	height: 70px;
+	width: 70px;
+	background: url(study.jpeg);
+	border-radius: 50px;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	
+	background-position: center;
+	background-size: cover;
+
+}
+.container h1{
+	color: white;
+	margin-top: 50px;
+	position: center;
+
+}
+.container p{
+	color: white;
+	margin-top: 60px;
+	font-size: large;
+
+}
+.ul{
+
+
+	height: 10vh;
+	width: 30%;
+	background: rgba(0,0,0,.6);
+	top: 5%;
+	
+	background-size: cover;
+	background-position: center;
+	padding: 2px ;
+	margin-right: 8%;
+	position: center;
+	color:white;
+	right: 80px;
+}
+.footer-container{
+	background-color: #212329;
+	
+}
+.footer{
+	width: 10%;
+	height: 10vh;
+	background-color: gray;
+	color: #fff;
+	flex-wrap: wrap;
+	
+	justify-content: center;
+	padding-bottom: 
+	margin-bottom:0.5rem;
+
+}
+
+.personal{
+	font-size: 30px;
+	background:#ffffff;
+	color: #333;
+	
+	justify-content: center;
+	
+	color: white;
+	height: 500px;
+	width: 300px;
+	transition: translate(0.0.9.9);
+	top: 30;
+	left: 0;
+	bottom:0;
+	position: absolute;
+	line-height: 20px;
+
+
+	
+
+
+}
+.personal2{
+	font-size: 20px;
+	background:#ffffff;
+	color: white;
+	
+	justify-content: center;
+	margin-right: 100px;
+	display: inline-block;
+	line-height: 70px;
+	
+	color: white;
+	height: 490px;
+	width: 300px;
+	
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	margin-right: 0;
+	text-align: center;
+	
+}
+h2{
+	color: black;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.back{
+	color: black;
+	font-size: 20px;
+	font-family: monospace;
+	background: #4e9492;
+	border:solid;
+	height: 300px;
+	width: 900px;
+	align-self: center;
+	top: 0;
+	
+	position: absolute;
+	margin-right:
+	text-align: center;
+	justify-content: center;
+	margin-right: 280px;
+	display: inline-block;
+
+}
+h3{
+	color: gray;
+	font-size: 30px;
+	font-size: medium;
+}
+div.a{
+	text-decoration-line: overline;
+	text-decoration-style: solid;
+	text-decoration-color:rgb(3,4,87,250);
+
+	color: black;
+
+}
+h4{
+	color: brown;
+}
+div.b{
+	text-rendering: optimizeSpeed;
+	color: red;
+	font-size: 13px;
+	color: gray;
+	text-align: left;
+}
+
+
+.new{
+	color: black;
+	font-size: 25px;
+	font-style:oblique;
+	text-align: left;
+	top: 15;
+	right: 0;
+	position: absolute;
+	margin-right: 0;
+	text-align: left;
+
+}
+div.c{
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-color:rgb(0,180,214);
+	color: rgb(0,180,214);
+	font-size: 20px;
+	text-align: center;
+
+}
+
+div.d{
+	text-decoration-line: underline;
+	text-decoration-style: solid;
+	text-decoration-color:black;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+	text-align: left;
+
+
+
+
+
+
+
+
+
+
+
+
